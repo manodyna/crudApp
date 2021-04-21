@@ -15,9 +15,10 @@ public class Product {
     @GenericGenerator(name = "system-uuid", strategy = "uuid2")
     private String id;
     private String name;
-    private String category;
+    private String description;
     private String type;
-    private Double  price;
+    private String category;
+    private Double price;
 
     public Product() {
     }
@@ -38,12 +39,12 @@ public class Product {
         this.name = name;
     }
 
-    public String getCategory() {
-        return category;
+    public String getDescription() {
+        return description;
     }
 
-    public void setCategory(String category) {
-        this.category = category;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getType() {
@@ -54,11 +55,19 @@ public class Product {
         this.type = type;
     }
 
-    public double getPrice() {
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 }
