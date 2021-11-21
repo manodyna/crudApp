@@ -20,21 +20,21 @@ public class DataLoader implements CommandLineRunner {
     public void run(String... strings) throws Exception {
 
         try {
-            Product product1 = new Product();
-            product1.setName("Milky Bar");
-            product1.setType("CANDIES");
-            product1.setCategory("BARS");
-            product1.setPrice(100.00);
+//            Product product1 = new Product();
+//            product1.setName("Milky Bar");
+//            product1.setType("CANDIES");
+//            product1.setCategory("BARS");
+//            product1.setPrice(100.00);
+//
+//            productRepository.save(product1);
+//
+//            Product product2 = new Product();
+//            product2.setName("Almond Bar");
+//            product2.setType("CANDIES");
+//            product2.setCategory("BARS");
+//            product2.setPrice(150.00);
 
-            productRepository.save(product1);
-
-            Product product2 = new Product();
-            product2.setName("Almond Bar");
-            product2.setType("CANDIES");
-            product2.setCategory("BARS");
-            product2.setPrice(150.00);
-
-            productRepository.save(product2);
+//            productRepository.save(product2);
         }catch (Exception e){
             e.printStackTrace();
         }
