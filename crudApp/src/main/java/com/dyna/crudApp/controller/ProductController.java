@@ -32,8 +32,7 @@ public class ProductController {
 
     @RequestMapping(path = "products", method = RequestMethod.POST)
     public String saveProduct(Product product) {
-        productRepository.save(
-                product);
+        productRepository.save(product);
         return "redirect:/";
     }
 

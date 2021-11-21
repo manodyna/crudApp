@@ -67,6 +67,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
@@ -77,6 +78,8 @@
 			<artifactId>leopard-boot-requestmapping</artifactId>
 			<version>0.9.20</version>
 		</dependency>
+=======
+>>>>>>> parent of 1c67f70 (jasper embedded on pom)
 	</dependencies>
 
 	<build>

@@ -26,8 +26,8 @@
                 <td th:text="${product.type}">Type</td>
                 <td th:text="${product.category}">Category</td>
                 <td th:text="${product.price}">Price</td>
-                <td><a th:href="${'/products/edit/' + product.id}" class="btn btn-default" id="btn">Edit</a></td>
-                <td><a th:href="${'/products/delete/' + product.id}" class="btn btn-danger" id="btn2">Delete</a></td>
+                <td><a th:href="${'/products/edit/' + product.id}" class="btn btn-default">Edit</a></td>
+                <td><a th:href="${'/products/delete/' + product.id}" class="btn btn-danger">Delete</a></td>
             </tr>
         </table>
     </div>
